@@ -81,6 +81,10 @@ export const App = () => {
           >
             Twurple
           </Link>
+          ,{" "}
+          <Link href="https://tmijs.com/" textDecor="underline" isExternal>
+            tmi.js
+          </Link>
           , and{" "}
           <Link
             href="https://aws.amazon.com/amplify/"
