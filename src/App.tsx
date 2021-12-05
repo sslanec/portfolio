@@ -23,8 +23,8 @@ export const App = () => {
         flexDirection="column"
         minHeight={0}
         paddingTop={2}
-        paddingLeft={[2, 2, 0, 0]}
-        paddingRight={[2, 2, 0, 0]}
+        paddingLeft={[3, 3, 0, 0]}
+        paddingRight={[3, 3, 0, 0]}
         paddingBottom={2}
       >
         <Flex justifyContent="space-between" alignItems="center">
