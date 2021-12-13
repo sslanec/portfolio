@@ -39,7 +39,7 @@ export const App = () => {
           </Heading>
           <ColorModeSwitcher />
         </Flex>
-        <Text>Information Technology graduate and web developer.</Text>
+        <Text>Information Technology graduate.</Text>
 
         <Flex paddingTop={4} justifyContent="center" gridGap={5}>
           <LinkedInButton />
