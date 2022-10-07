@@ -50,14 +50,13 @@ export const App = () => {
           Projects
         </Heading>
         <Text style={{ textIndent: -20, marginLeft: 20 }}>
-          <Link
+          {/* <Link
             href="https://www.pogchat.live/"
             textDecor="underline"
             isExternal
-          >
-            PogChat
-          </Link>{" "}
-          - A web-based Twitch chat alternative. Built using{" "}
+          > */}
+          PogChat (temporarily offline)
+          {/* </Link> */} - A web-based Twitch chat alternative. Built using{" "}
           <Link href="https://reactjs.org/" textDecor="underline" isExternal>
             React
           </Link>
