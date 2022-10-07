@@ -31,12 +31,7 @@ export const App = () => {
         paddingBottom={2}
       >
         <Flex justifyContent="space-between" alignItems="center">
-          <Avatar
-            marginBottom={1}
-            src={avatarPic}
-            size="lg"
-            name="Sean Slanec"
-          />
+          <Avatar src={avatarPic} size="lg" name="Sean Slanec" />
           <Heading flexGrow={1} paddingLeft={2}>
             Sean Slanec
           </Heading>
@@ -109,7 +104,7 @@ export const App = () => {
         <Heading size="lg" paddingTop={4} paddingBottom={1}>
           Skills
         </Heading>
-        <SimpleGrid spacing="20px" minChildWidth={150}>
+        <SimpleGrid spacing={2} minChildWidth={150}>
           <Card heading="Web">
             <Text>HTML/CSS/JS</Text>
             <Text>TypeScript</Text>
@@ -118,13 +113,14 @@ export const App = () => {
           </Card>
           <Card heading="Development">
             <Text>Python</Text>
-            <Text>MySQL</Text>
+            <Text>SQL</Text>
             <Text>Git</Text>
             <Text>Agile</Text>
           </Card>
           <Card heading="Enterprise">
             <Text>VMware Vcenter</Text>
             <Text>Windows Domain</Text>
+            <Text>Linux Server</Text>
             <Text>MS Office</Text>
           </Card>
           <Card heading="Security">
