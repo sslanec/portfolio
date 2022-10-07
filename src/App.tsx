@@ -8,10 +8,13 @@ import {
   Link,
   SimpleGrid,
   Text,
+  Box,
 } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "./components/ColorModeSwitcher";
 import { Card } from "./components/Card";
 import avatarPic from "./assets/avatar.jpg";
+import macombLogo from "./assets/macomb.jpg";
+import walshLogo from "./assets/walsh.jpg";
 import { LinkedInButton, GitHubButton } from "./components/Buttons";
 import theme from "./theme";
 
@@ -134,6 +137,41 @@ export const App = () => {
             <Text>Adobe Photoshop</Text>
           </Card>
         </SimpleGrid>
+
+        <Heading size="lg" paddingTop={4} paddingBottom={1}>
+          Education
+        </Heading>
+        <Flex
+          justifyContent="space-between"
+          alignItems="center"
+          paddingBottom={2}
+        >
+          <Box width={100} height="auto">
+            <img
+              src={walshLogo}
+              alt="Walsh College logo"
+              title="Walsh College logo"
+            />
+          </Box>
+          <Text flexGrow={1} paddingLeft={2}>
+            Walsh College <br />
+            B.S. in Information Technology <br />
+            GPA: 3.4
+          </Text>
+        </Flex>
+        <Flex justifyContent="space-between" alignItems="center">
+          <Box width={100} height="auto">
+            <img
+              src={macombLogo}
+              alt="Walsh College logo"
+              title="Walsh College logo"
+            />
+          </Box>
+          <Text flexGrow={1} paddingLeft={2}>
+            Macomb Community College <br />
+            Associate's Degree <br />
+          </Text>
+        </Flex>
       </Container>
     </ChakraProvider>
   );
