@@ -151,7 +151,7 @@ export const App = () => {
           </Box>
           <Text flexGrow={1} paddingLeft={2}>
             Walsh College <br />
-            B.S. in Information Technology <br />
+            BSc in Information Technology <br />
             GPA: 3.4
           </Text>
         </Flex>
