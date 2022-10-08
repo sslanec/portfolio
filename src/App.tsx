@@ -48,13 +48,13 @@ export const App = () => {
           Projects
         </Heading>
         <Text style={{ textIndent: -20, marginLeft: 20 }}>
-          {/* <Link
-            href="https://www.pogchat.live/"
+          <Link
+            href="https://pogchat.d12tw03jog4r9c.amplifyapp.com/"
             textDecor="underline"
             isExternal
-          > */}
-          PogChat (temporarily offline)
-          {/* </Link> */} - A web-based Twitch chat alternative. Built using{" "}
+          >
+          PogChat
+          </Link> - A web-based Twitch chat alternative. Built using{" "}
           <Link href="https://reactjs.org/" textDecor="underline" isExternal>
             React
           </Link>
@@ -90,7 +90,7 @@ export const App = () => {
           >
             AWS Amplify
           </Link>
-          . Source code and demo video can be found on{" "}
+          . Source code can be found on{" "}
           <Link
             href="https://github.com/sslanec/PogChat"
             textDecor="underline"
