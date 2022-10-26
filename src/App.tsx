@@ -49,7 +49,7 @@ export const App = () => {
         </Heading>
         <Text style={{ textIndent: -20, marginLeft: 20 }}>
           <Link
-            href="https://pogchat.d12tw03jog4r9c.amplifyapp.com/"
+            href="https://www.pogchat.live/"
             textDecor="underline"
             isExternal
           >
